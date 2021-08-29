@@ -3,7 +3,7 @@ from  Dataset import x,y
 
 import getpass
 
-APIKEY = "AIzaSyAP3ym6AA-8NUktUovBXarmYFocgbjM4n8"
+APIKEY = getpass.getpass()
 
 
 # running Translate API
